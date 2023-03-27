@@ -2,42 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [2.2.1](https://github.com/merceyz/typescript-to-proptypes/compare/v2.2.0...v2.2.1) (2021-08-01)
-
-### Bug Fixes
-
-- **parser:** handle more `elementType`s ([#34](https://github.com/merceyz/typescript-to-proptypes/issues/34)) ([472ce82](https://github.com/merceyz/typescript-to-proptypes/commit/472ce82e5565f38febbe11ebaa7dbba00993a064))
-- **parser:** support retrieving type of destructured forwardRef arg ([#33](https://github.com/merceyz/typescript-to-proptypes/issues/33)) ([b554187](https://github.com/merceyz/typescript-to-proptypes/commit/b554187d2d804658001ac0315be61266ce8af295))
-
-## [2.2.0](https://github.com/merceyz/typescript-to-proptypes/compare/v2.1.2...v2.2.0) (2020-09-14)
-
-### Features
-
-- add TS@3.8 support ([#29](https://github.com/merceyz/typescript-to-proptypes/issues/29)) ([40f0358](https://github.com/merceyz/typescript-to-proptypes/commit/40f0358bc691e3c5b892276626d9dc554b4c2b6e))
-
-### Performance Improvements
-
-- **parser:** use set instead of array for stack ([426dd39](https://github.com/merceyz/typescript-to-proptypes/commit/426dd39bd17c5fb1990c0e023d108bc9df1d8b10))
-
-### [2.1.2](https://github.com/merceyz/typescript-to-proptypes/compare/v2.1.1...v2.1.2) (2020-09-13)
-
-### Bug Fixes
-
-- **parser:** parse Date type ([bb94047](https://github.com/merceyz/typescript-to-proptypes/commit/bb94047456e7932863adc516cb0e2b9b689f328a)), closes [#30](https://github.com/merceyz/typescript-to-proptypes/issues/30)
-
-### [2.1.1](https://github.com/merceyz/typescript-to-proptypes/compare/v2.1.0...v2.1.1) (2020-08-17)
-
-### Bug Fixes
-
-- **injector:** check previous validator source for string literal keys ([5d06cfb](https://github.com/merceyz/typescript-to-proptypes/commit/5d06cfb0373d43b7a9c19fa2bb456b5efbb38e50))
-
-## [2.1.0](https://github.com/merceyz/typescript-to-proptypes/compare/v2.0.1...v2.1.0) (2020-06-18)
-
-### Features
-
-- make literal sort configurable ([#25](https://github.com/merceyz/typescript-to-proptypes/issues/25)) ([d02a08a](https://github.com/merceyz/typescript-to-proptypes/commit/d02a08a7f4c7a25e08c786fa8b625d838613c8b5))
-
-### [2.0.1](https://github.com/merceyz/typescript-to-proptypes/compare/v2.0.0...v2.0.1) (2020-06-02)
+## [2.0.1](https://github.com/merceyz/typescript-to-proptypes/compare/v2.0.0...v2.0.1) (2020-06-02)
 
 ### Bug Fixes
 
@@ -78,13 +43,13 @@ All notable changes to this project will be documented in this file. See [standa
 - handle all props getting ignored by shouldInclude ([b69112e](https://github.com/merceyz/typescript-to-proptypes/commit/b69112e1011f089b6d5cb60f88ce75b6394252be))
 - **parser:** export ParserOptions ([3a5d55e](https://github.com/merceyz/typescript-to-proptypes/commit/3a5d55e68a723208a4b76e79d4bafe92ddf4f85a))
 
-### [1.4.2](https://github.com/merceyz/typescript-to-proptypes/compare/v1.4.1...v1.4.2) (2020-03-27)
+## [1.4.2](https://github.com/merceyz/typescript-to-proptypes/compare/v1.4.1...v1.4.2) (2020-03-27)
 
 ### Bug Fixes
 
 - build had a broken output ([97b0326](https://github.com/merceyz/typescript-to-proptypes/commit/97b0326c8b3b811fd5167cefa95a5dc1aa22a212))
 
-### [1.4.1](https://github.com/merceyz/typescript-to-proptypes/compare/v1.4.0...v1.4.1) (2020-03-27)
+## [1.4.1](https://github.com/merceyz/typescript-to-proptypes/compare/v1.4.0...v1.4.1) (2020-03-27)
 
 ### Bug Fixes
 
@@ -117,25 +82,25 @@ All notable changes to this project will be documented in this file. See [standa
 
 - add missing test config ([d00c7f2](https://github.com/merceyz/typescript-to-proptypes/commit/d00c7f2))
 
-### [1.2.4](https://github.com/merceyz/typescript-to-proptypes/compare/v1.2.3...v1.2.4) (2019-08-16)
+## [1.2.4](https://github.com/merceyz/typescript-to-proptypes/compare/v1.2.3...v1.2.4) (2019-08-16)
 
 ### Bug Fixes
 
 - **injector:** use require.resolve ([b9d04ea](https://github.com/merceyz/typescript-to-proptypes/commit/b9d04ea))
 
-### [1.2.3](https://github.com/merceyz/typescript-to-proptypes/compare/v1.2.2...v1.2.3) (2019-07-24)
+## [1.2.3](https://github.com/merceyz/typescript-to-proptypes/compare/v1.2.2...v1.2.3) (2019-07-24)
 
 ### Bug Fixes
 
 - **parser:** handle return type of JSX.Element | null ([cbe5564](https://github.com/merceyz/typescript-to-proptypes/commit/cbe5564))
 
-### [1.2.2](https://github.com/merceyz/typescript-to-proptypes/compare/v1.2.1...v1.2.2) (2019-07-23)
+## [1.2.2](https://github.com/merceyz/typescript-to-proptypes/compare/v1.2.1...v1.2.2) (2019-07-23)
 
 ### Bug Fixes
 
 - **parser:** remove leftover asterisk ([2e720df](https://github.com/merceyz/typescript-to-proptypes/commit/2e720df))
 
-### [1.2.1](https://github.com/merceyz/typescript-to-proptypes/compare/v1.2.0...v1.2.1) (2019-07-23)
+## [1.2.1](https://github.com/merceyz/typescript-to-proptypes/compare/v1.2.0...v1.2.1) (2019-07-23)
 
 ### Bug Fixes
 
@@ -178,26 +143,26 @@ All notable changes to this project will be documented in this file. See [standa
 - **parser:** control included proptypes ([2952e78](https://github.com/merceyz/typescript-to-proptypes/commit/2952e78))
 - **parser:** objects / shapes ([81f1a82](https://github.com/merceyz/typescript-to-proptypes/commit/81f1a82))
 
-### [1.0.4](https://github.com/merceyz/typescript-to-proptypes/compare/v1.0.3...v1.0.4) (2019-07-10)
+## [1.0.4](https://github.com/merceyz/typescript-to-proptypes/compare/v1.0.3...v1.0.4) (2019-07-10)
 
 ### Bug Fixes
 
 - **generator:** omit null if proptype is optional ([21351a4](https://github.com/merceyz/typescript-to-proptypes/commit/21351a4))
 - **parser:** reactnode should make proptype optional ([c84b611](https://github.com/merceyz/typescript-to-proptypes/commit/c84b611))
 
-### [1.0.3](https://github.com/merceyz/typescript-to-proptypes/compare/v1.0.2...v1.0.3) (2019-07-10)
+## [1.0.3](https://github.com/merceyz/typescript-to-proptypes/compare/v1.0.2...v1.0.3) (2019-07-10)
 
 ### Bug Fixes
 
 - export types ([7583291](https://github.com/merceyz/typescript-to-proptypes/commit/7583291))
 
-### [1.0.2](https://github.com/merceyz/typescript-to-proptypes/compare/v1.0.1...v1.0.2) (2019-07-09)
+## [1.0.2](https://github.com/merceyz/typescript-to-proptypes/compare/v1.0.1...v1.0.2) (2019-07-09)
 
 ### Bug Fixes
 
 - **injector:** don't visit FunctionDeclarations more than once ([236276b](https://github.com/merceyz/typescript-to-proptypes/commit/236276b))
 
-### [1.0.1](https://github.com/merceyz/typescript-to-proptypes/compare/v1.0.0...v1.0.1) (2019-07-09)
+## [1.0.1](https://github.com/merceyz/typescript-to-proptypes/compare/v1.0.0...v1.0.1) (2019-07-09)
 
 ### Bug Fixes
 
